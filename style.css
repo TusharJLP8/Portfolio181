@@ -131,6 +131,29 @@ nav ul li a:hover {
     background-color: #0056b3;
 }
 
+/* Blog Section */
+.blog-post {
+    background-color: #f9f9f9;
+    padding: 30px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.blog-post h3 {
+    font-size: 2em;
+    color: #333;
+}
+
+.blog-post p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+.blog-post p strong {
+    color: #007bff;
+}
+
 /* Contact Section */
 #contact p {
     font-size: 1.2em;
@@ -146,4 +169,19 @@ footer {
 
 footer p {
     margin: 0;
+}
+/* Read More Button */
+.read-more-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #e52e71;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+}
+
+.read-more-button:hover {
+    background-color: #ff8a00;
 }
